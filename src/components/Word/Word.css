@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     column-gap: 5px;
-    width: 60dvh;
+    width: 38%;
 }
 
 .word-letter{
@@ -20,4 +20,10 @@
 
 .word-letter.missing{
     color: #e75440;
+}
+
+@media (max-width: 600px) {
+    .word-section{
+        width: 65%;
+    }
 }
