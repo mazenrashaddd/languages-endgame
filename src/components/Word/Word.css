@@ -1,0 +1,23 @@
+.word-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    width: 60dvh;
+}
+
+.word-letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(50, 50, 50);
+    border-bottom: 1px solid rgb(249, 244, 218);
+}
+
+.word-letter.missing{
+    color: #e75440;
+}
