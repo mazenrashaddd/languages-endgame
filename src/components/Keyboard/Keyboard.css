@@ -32,7 +32,13 @@
   pointer-events: none; /* Prevents clicking */
 }
 
-button:disabled{
+button:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  .keyboard-section {
+    width: 50%;
+  }
 }

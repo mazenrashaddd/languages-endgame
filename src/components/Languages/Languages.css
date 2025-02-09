@@ -4,7 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 5px;
-  width: 80%;
+  width: 35%;
 }
 
 .language-button {
@@ -38,4 +38,10 @@
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   border-radius: 3px;
+}
+
+@media (max-width:600px) {
+  .languages-section {
+    width: 80%;
+  }
 }
