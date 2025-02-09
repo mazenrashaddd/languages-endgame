@@ -1,4 +1,4 @@
-import "./status.css";
+import "./Status.css";
 
 import { clsx } from 'clsx';
 
