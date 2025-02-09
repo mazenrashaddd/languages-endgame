@@ -1,5 +1,6 @@
 .button-section{
   height: 6dvh;
+  width: 22%;
 }
 
 .new-game-button {
@@ -12,4 +13,11 @@
   display: block;
   margin-inline: auto;
   cursor: pointer;
+  width: 100%;
+}
+
+@media (max-width: 600px){
+  .button-section{
+    width: 70%; 
+  }
 }
