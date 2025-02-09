@@ -5,19 +5,4 @@ main {
   align-items: center;
   width: 100%;
   min-height: 90dvh;
-  padding: 2rem;
-}
-
-@media (max-width: 600px) {
-  html {
-    font-size: 14px;
-  }
-  main {
-    gap: 1rem; 
-    padding: 1rem;
-  }
-
-  body {
-    line-height: 1.4;
-  }
 }
