@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 35%;
   height: 12dvh;
   /* background-color: rgb(63, 143, 60);
@@ -32,5 +33,6 @@
 @media (max-width: 600px){
   .status-section{
     width: 70%;
+    font-size: 14%;
   }
 }
