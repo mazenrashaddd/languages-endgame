@@ -39,6 +39,6 @@ button:disabled {
 
 @media (max-width: 600px) {
   .keyboard-section {
-    width: 65%;
+    width: 70%;
   }
 }
